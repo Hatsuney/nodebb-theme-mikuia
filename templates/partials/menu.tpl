@@ -115,18 +115,11 @@
 				</ul>
 				<!-- ELSE -->
 				<ul id="logged-out-menu" class="nav navbar-nav navbar-right">
-					<!-- IF allowRegistration -->
-					<li>
-						<a href="{relative_path}/register">
-							<i class="fa fa-pencil visible-xs-inline"></i>
-							<span>[[global:register]]</span>
-						</a>
-					</li>
 					<!-- ENDIF allowRegistration -->
 					<li>
-						<a href="{relative_path}/login">
+						<a target="_top" rel="nofollow" href="{relative_path}/auth/twitch">
 							<i class="fa fa-sign-in visible-xs-inline"></i>
-							<span>[[global:login]]</span>
+							<span>Login with Twitch</span>
 						</a>
 					</li>
 				</ul>

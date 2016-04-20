@@ -50,10 +50,11 @@
 	<!-- IF alternate_logins -->
 	<div class="<!-- IF allowLocalLogin -->col-md-6<!-- ELSE -->col-md-12<!-- ENDIF allowLocalLogin -->">
 		<div class="well well-lg">
-			<h4>[[login:alternative_logins]]</h4>
 			<ul class="alt-logins">
 				<!-- BEGIN authentication -->
-				<li class="{authentication.name}"><a rel="nofollow" target="_top" href="{config.relative_path}{authentication.url}"><i class="fa {authentication.icon} fa-3x"></i></a></li>
+				<a href="/auth/twitch" rel="nofollow" target="_top" class="btn btn-primary">
+					<i class="fa fa-twitch"></i> Login with Twitch
+				</a>
 				<!-- END authentication -->
 			</ul>
 		</div>
